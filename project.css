@@ -1,0 +1,179 @@
+/* font url */
+.work-sans{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+   
+  }
+/* nav button design */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.button{
+    background-color: #df4a39e0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+   padding: 18px 35px;
+    border: none;
+
+}
+
+/* nav bar deasign */
+
+.nav-bar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+}
+.nav-text li{
+    text-decoration: none;
+    
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    padding-left: 80px;
+   
+}
+
+/* nav text design */
+.text-dgn{
+    color:  #00ff0074;
+    
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{display: flex;
+align-items: center;
+
+}
+
+/* nav end */
+/* banner style start */
+
+.header{
+    background-image: url(./portfolio/images/developer.png), url(./portfolio/images/header_bg.png);
+ background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
+
+.banner{display: flex;
+justify-content: space-between;
+margin: 0 35px 0 200px;
+align-items: center;
+margin-bottom: -8px;
+}
+
+.banner-greetings{
+    color: rgba(62, 166, 156, 0.505);
+    opacity: 3;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    
+}
+.banner-pic{
+    width: 580px;
+}
+
+.banner-content{
+ 
+    max-width:580px ;
+    text-align: center;
+}
+/* banner style end */
+.text-center{
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* main start */
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#757575;
+
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* main style */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about style */
+.about{
+    border-radius: 20px;
+    padding: 130px 150px;
+    text-align: center;
+  
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+/* what i do section style */
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+/* resume style */
+
+.resume-container{
+    display: flex;
+
+    margin-top: 50px;
+}
+
+.resume-colam{
+    
+    padding-right: 10px;
+} 
+
+.resume-row{
+    padding-right: 10px;
+}
